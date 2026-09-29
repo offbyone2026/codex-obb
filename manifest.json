@@ -1,10 +1,72 @@
 {
-  "version": "1.0.0",
-  "mcp": [],
-  "skills": [],
+  "version": "1.1.0",
+  "mcp": [
+    {
+      "name": "godot",
+      "file": "godot-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/godot-mcp.md",
+      "desc": "Godot 4.x 引擎控制（场景/脚本/节点/导出，42+ tools）"
+    },
+    {
+      "name": "unity",
+      "file": "unity-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/unity-mcp.md",
+      "desc": "Unity 编辑器控制（CoplayDev/unity-mcp）"
+    },
+    {
+      "name": "unreal",
+      "file": "unreal-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/unreal-mcp.md",
+      "desc": "Unreal Engine 5 编辑器控制（280 命令）"
+    },
+    {
+      "name": "steam",
+      "file": "steam-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/steam-mcp.md",
+      "desc": "Steam 平台数据/发行（账号/库/成就/工坊/发行商）"
+    },
+    {
+      "name": "blender",
+      "file": "blender-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/blender-mcp.md",
+      "desc": "Blender 建模/贴图自动化（157 tools，本机已部署）"
+    }
+  ],
+  "skills": [
+    {
+      "name": "game-developer",
+      "file": "game-developer.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/game-developer.md",
+      "desc": "通用游戏开发（Unity/Unreal，性能优化/多人联网）"
+    },
+    {
+      "name": "godot-code-gen",
+      "file": "godot-claude-skills.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/godot-claude-skills.md",
+      "desc": "GDScript 最佳实践/场景设计/着色器/实时工作流"
+    },
+    {
+      "name": "game-studios",
+      "file": "game-studios.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/game-studios.md",
+      "desc": "全流程游戏工作室技能集（49 agents/73 skills）"
+    },
+    {
+      "name": "game-development-orchestrator",
+      "file": "game-development-orchestrator.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/game-development-orchestrator.md",
+      "desc": "按平台/维度路由的游戏开发编排"
+    },
+    {
+      "name": "skills-gamedev",
+      "file": "skills-gamedev.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills-gamedev.md",
+      "desc": "26 项工程技能（建模/构建/性能/反作弊/版本控制）"
+    }
+  ],
   "releases": {
     "source": "https://github.com/offbyone2026/codex-obb-releases",
     "server_version_api": "https://offbyone.top/api/desktop/plugins-version"
   },
-  "note": "OffByOne Studio Codex 改壳版附加插件清单。mcp/skills 条目后续由 codex-obb-mcp 与 codex-obb-skills 仓库填充，客户端按此清单自动拉取部署。"
+  "note": "OffByOne Studio Codex 改壳版附加插件清单。v1.1.0：mcp/skills 已由 codex-obb-mcp 与 codex-obb-skills 仓库填充，客户端按此清单自动拉取部署。"
 }
