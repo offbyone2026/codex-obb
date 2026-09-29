@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "mcp": [],
+  "skills": [],
+  "releases": {
+    "source": "https://github.com/offbyone2026/codex-obb-releases",
+    "server_version_api": "https://offbyone.top/api/desktop/plugins-version"
+  },
+  "note": "OffByOne Studio Codex 改壳版附加插件清单。mcp/skills 条目后续由 codex-obb-mcp 与 codex-obb-skills 仓库填充，客户端按此清单自动拉取部署。"
+}
