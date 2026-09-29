@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "mcp": [
     {
       "name": "godot",
@@ -62,11 +62,71 @@
       "file": "skills-gamedev.md",
       "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills-gamedev.md",
       "desc": "26 项工程技能（建模/构建/性能/反作弊/版本控制）"
+    },
+    {
+      "name": "video-generation",
+      "file": "skills/video-generation/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/video-generation/SKILL.md",
+      "desc": "视频生成/宣传片（Sora 2 API：文生/图生视频/remix/轮询）"
+    },
+    {
+      "name": "game-asset-pipeline",
+      "file": "skills/game-asset-pipeline/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/game-asset-pipeline/SKILL.md",
+      "desc": "素材批量生成流水线（Ludo：sprite/3D/动画/视频/音频/TTS）"
+    },
+    {
+      "name": "pixel-art-design",
+      "file": "skills/pixel-art-design/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/pixel-art-design/SKILL.md",
+      "desc": "像素画规范与 spritesheet 帧动画"
+    },
+    {
+      "name": "game-audio-design",
+      "file": "skills/game-audio-design/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/game-audio-design/SKILL.md",
+      "desc": "游戏音频设计：SFX/BGM/环境/语音规格与批量生成"
+    },
+    {
+      "name": "game-localization",
+      "file": "skills/game-localization/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/game-localization/SKILL.md",
+      "desc": "多语言本地化：文本提取/key 规范/文化适配/质检"
+    },
+    {
+      "name": "level-design",
+      "file": "skills/level-design/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/level-design/SKILL.md",
+      "desc": "关卡设计：目标/节奏/难度曲线/灰盒验证"
+    },
+    {
+      "name": "playtesting",
+      "file": "skills/playtesting/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/playtesting/SKILL.md",
+      "desc": "试玩测试：会话观察/问题分级(SABC)/反馈闭环"
+    },
+    {
+      "name": "performance-optimization",
+      "file": "skills/performance-optimization/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/performance-optimization/SKILL.md",
+      "desc": "性能剖析与优化（Godot/Unity 清单与预算）"
+    },
+    {
+      "name": "steam-release",
+      "file": "skills/steam-release/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/steam-release/SKILL.md",
+      "desc": "Steam 发行：商店页/构建/depot/成就/发布清单"
+    },
+    {
+      "name": "indie-project-planning",
+      "file": "skills/indie-project-planning/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/indie-project-planning/SKILL.md",
+      "desc": "独立项目规划：GDD/里程碑/任务拆解/风险登记"
     }
   ],
   "releases": {
     "source": "https://github.com/offbyone2026/codex-obb-releases",
     "server_version_api": "https://offbyone.top/api/desktop/plugins-version"
   },
-  "note": "OffByOne Studio Codex 改壳版附加插件清单。v1.1.0：mcp/skills 已由 codex-obb-mcp 与 codex-obb-skills 仓库填充，客户端按此清单自动拉取部署。"
+  "note": "OffByOne Studio Codex 改壳版附加插件清单。v1.2.0：新增 sora/ludo MCP 与 10 个自研技能包（video-generation 等），配合 AUTO_SKILL_DISCOVERY 自动调用机制；客户端按此清单自动拉取部署。"
 }
