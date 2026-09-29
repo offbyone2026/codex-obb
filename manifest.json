@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "mcp": [
     {
       "name": "godot",
@@ -30,6 +30,66 @@
       "file": "blender-mcp.md",
       "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/blender-mcp.md",
       "desc": "Blender 建模/贴图自动化（157 tools，本机已部署）"
+    },
+    {
+      "name": "godot-ecosystem",
+      "file": "godot-mcp-ecosystem.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/godot-mcp-ecosystem.md",
+      "desc": "Godot 生态补充（v2 runtime / RAG 文档问答 / Peek）"
+    },
+    {
+      "name": "unity-ecosystem",
+      "file": "unity-mcp-ecosystem.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/unity-mcp-ecosystem.md",
+      "desc": "Unity 生态补充（unityctl 179 命令 / Rust / C# 执行）"
+    },
+    {
+      "name": "unreal-ecosystem",
+      "file": "unreal-mcp-ecosystem.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/unreal-mcp-ecosystem.md",
+      "desc": "Unreal 生态补充（轻量 TCP / Python 批处理 / 蓝图桥）"
+    },
+    {
+      "name": "cocos",
+      "file": "cocos-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/cocos-mcp.md",
+      "desc": "Cocos Creator 3.x MCP（国产 2D/小游戏引擎）"
+    },
+    {
+      "name": "web-indie",
+      "file": "web-indie-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/web-indie-mcp.md",
+      "desc": "Web 与独立引擎 MCP（Phaser/Bevy/Defold/RPG Maker/Three.js）"
+    },
+    {
+      "name": "3d-asset-gen",
+      "file": "3d-asset-gen-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/3d-asset-gen-mcp.md",
+      "desc": "AI 3D 资产生成（mcp-3d-gen Tripo/Meshy/Rodin + HF + AAA 管线）"
+    },
+    {
+      "name": "audio-music",
+      "file": "audio-music-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/audio-music-mcp.md",
+      "desc": "音频音乐 MCP（ElevenLabs 官方 TTS / Suno / Ableton Live）"
+    },
+    {
+      "name": "game-testing",
+      "file": "game-testing-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/game-testing-mcp.md",
+      "desc": "测试与平衡 MCP（Playwright 官方 / 战斗平衡数值分析）"
+    },
+    {
+      "name": "steam-ecosystem",
+      "file": "steam-ecosystem-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/steam-ecosystem-mcp.md",
+      "desc": "Steam 生态补充（TMHS 写操作 / 评测分析 / itch jams / 游戏库）"
+    },
+    {
+      "name": "project-collab",
+      "file": "project-collab-mcp.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-mcp/main/project-collab-mcp.md",
+      "desc": "项目协作 MCP（Notion / Atlassian / GitHub 官方）"
     }
   ],
   "skills": [
@@ -122,11 +182,59 @@
       "file": "skills/indie-project-planning/SKILL.md",
       "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/indie-project-planning/SKILL.md",
       "desc": "独立项目规划：GDD/里程碑/任务拆解/风险登记"
+    },
+    {
+      "name": "combat-system-design",
+      "file": "skills/combat-system-design/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/combat-system-design/SKILL.md",
+      "desc": "战斗系统：攻击图/命中检测/伤害管线/打击感/平衡"
+    },
+    {
+      "name": "multiplayer-networking",
+      "file": "skills/multiplayer-networking/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/multiplayer-networking/SKILL.md",
+      "desc": "多人联机：权威服务器/同步/延迟补偿/反作弊"
+    },
+    {
+      "name": "godot-4-specialist",
+      "file": "skills/godot-4-specialist/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/godot-4-specialist/SKILL.md",
+      "desc": "Godot 4 专精（架构/信号/状态机/2D 像素/C#）"
+    },
+    {
+      "name": "unity-ecs-specialist",
+      "file": "skills/unity-ecs-specialist/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/unity-ecs-specialist/SKILL.md",
+      "desc": "Unity ECS/DOTS 数据导向架构"
+    },
+    {
+      "name": "engine-selection",
+      "file": "skills/engine-selection/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/engine-selection/SKILL.md",
+      "desc": "引擎与技术栈选型决策树"
+    },
+    {
+      "name": "game-jam-workflow",
+      "file": "skills/game-jam-workflow/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/game-jam-workflow/SKILL.md",
+      "desc": "Game Jam 48-72h 冲刺流程与提交清单"
+    },
+    {
+      "name": "narrative-design",
+      "file": "skills/narrative-design/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/narrative-design/SKILL.md",
+      "desc": "叙事/剧情/对话/世界观设计"
+    },
+    {
+      "name": "shader-and-vfx",
+      "file": "skills/shader-and-vfx/SKILL.md",
+      "url": "https://raw.githubusercontent.com/offbyone2026/codex-obb-skills/main/skills/shader-and-vfx/SKILL.md",
+      "desc": "着色器与特效（GLSL/后处理/粒子/Instancing）"
     }
   ],
   "releases": {
     "source": "https://github.com/offbyone2026/codex-obb-releases",
     "server_version_api": "https://offbyone.top/api/desktop/plugins-version"
   },
-  "note": "OffByOne Studio Codex 改壳版附加插件清单。v1.2.0：新增 sora/ludo MCP 与 10 个自研技能包（video-generation 等），配合 AUTO_SKILL_DISCOVERY 自动调用机制；客户端按此清单自动拉取部署。"
+  "note": "OffByOne Studio Codex 改壳版附加插件清单。v1.3.0：MCP 新增引擎生态补充（Godot/Unity/Unreal）、Cocos、Web/独立引擎、AI 3D 生成、音频音乐、测试平衡、Steam 生态、项目协作共 10 篇；skills 新增 8 个自研技能包（combat-system-design 等），配合 AUTO_SKILL_DISCOVERY 自动调用机制；客户端按此清单自动拉取部署。"
 }
